@@ -1,0 +1,25 @@
+{
+    "version": "0.0.1",
+    "name": "log/watcher",
+    "description": "Help to watch files",
+    "autoload": {
+        "psr-4": {
+            "Logwatcher\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Logwatcher\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdumannon Norboyev"
+        }
+    ]
+}

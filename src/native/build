@@ -1,0 +1,9 @@
+#/bin/bash
+
+gcc -shared -fPIC -o server.so \
+    server.c \
+    base64.c \
+    query_param.c \
+    entries.c \
+    websocket.c \
+    -lcrypto
