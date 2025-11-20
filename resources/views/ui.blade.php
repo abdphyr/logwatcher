@@ -102,6 +102,7 @@
                     html += `<div onclick="openFile('${item.path}')">📄 ${item.name}</div>`;
                 }
             });
+            
             document.getElementById("tree").innerHTML = html;
         }
         window.onload = () => loadFolder()
