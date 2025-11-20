@@ -1,9 +1,9 @@
 <?php
 
-namespace Logwatcher;
+namespace Abdphyr\Logwatcher;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Logwatcher\Console\Commands\StartLogwatcher;
+use Abdphyr\Logwatcher\Console\Commands\StartLogwatcher;
 
 class ServiceProvider extends LaravelServiceProvider
 {

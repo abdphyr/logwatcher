@@ -1,9 +1,9 @@
 <?php
 
-namespace Logwatcher\Console\Commands;
+namespace Abdphyr\Logwatcher\Console\Commands;
 
 use Illuminate\Console\Command;
-use Logwatcher\Server;
+use Abdphyr\Logwatcher\Server;
 
 class StartLogwatcher extends Command
 {

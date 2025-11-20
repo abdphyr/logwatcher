@@ -1,6 +1,6 @@
 <?php
 
-namespace Logwatcher;
+namespace Abdphyr\Logwatcher;
 
 final class Server
 {
